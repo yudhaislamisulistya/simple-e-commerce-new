@@ -1,7 +1,7 @@
 export default function AboutUs() {
     return(
         <div>
-        <h1>About UsBeljar</h1>
+        <h1>About Us yaaa</h1>
         </div>
     )
 }
