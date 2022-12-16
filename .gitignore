@@ -30,3 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+.eslintrc.json
+next.config.js
+package-lock.json
+package.json
