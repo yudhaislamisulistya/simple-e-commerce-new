@@ -35,7 +35,9 @@ const MenuHeaderCenter = () => {
                         </li>
                         <li class="mainmenu__item">
                             <a class="mainmenu__link">
+                            <Link href={'/profile'}>
                                 <span class="mm-text">Profile</span>
+                            </Link>
                             </a>
                         </li>
                     </ul>
