@@ -1,7 +1,4 @@
 import Header from '../components/header'
-const DynamicComponentWithNoSSR = dynamic(() => import('../components/header'), {
-    ssr: false
-})
 
 export default function Profile() {
     return(
