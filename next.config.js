@@ -8,7 +8,8 @@ const nextConfig = {
       minimumCacheTTL: 60,
   },
   experimental: {
-      nextScriptWorkers: true,
+      nextScriptWorkers: false,
+      
   },
 }
 
