@@ -1,24 +1,24 @@
 const MenuHeaderRight = () => {
     return(
     <>
-        <div class="header__main-right">
-            <div class="header-toolbar-wrap">
-                <div class="header-toolbar">
-                    <div class="header-toolbar__item header-toolbar--search-btn">
-                        <a href="#searchForm" class="header-toolbar__btn toolbar-btn">
-                            <i class="la la-search"></i>
+        <div className="header__main-right">
+            <div className="header-toolbar-wrap">
+                <div className="header-toolbar">
+                    <div className="header-toolbar__item header-toolbar--search-btn">
+                        <a href="#searchForm" className="header-toolbar__btn toolbar-btn">
+                            <i className="la la-search"></i>
                         </a>
                     </div>
-                    <div class="header-toolbar__item header-toolbar--minicart-btn">
-                        <a href="#miniCart" class="header-toolbar__btn toolbar-btn">
-                            <i class="la la-shopping-cart"></i>
-                            <span class="bg-danger text-white"></span>
+                    <div className="header-toolbar__item header-toolbar--minicart-btn">
+                        <a href="#miniCart" className="header-toolbar__btn toolbar-btn">
+                            <i className="la la-shopping-cart"></i>
+                            <span className="bg-danger text-white"></span>
                         </a>
                     </div>
-                    <div class="header-toolbar__item d-block d-lg-none">
+                    <div className="header-toolbar__item d-block d-lg-none">
                         <a href="#offcanvasMenu"
-                            class="header-toolbar__btn toolbar-btn menu-btn">
-                            <div class="hamburger-icon">
+                            className="header-toolbar__btn toolbar-btn menu-btn">
+                            <div className="hamburger-icon">
                                 <span></span>
                                 <span></span>
                                 <span></span>

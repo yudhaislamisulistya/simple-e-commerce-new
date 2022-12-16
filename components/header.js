@@ -4,13 +4,13 @@ import MenuHeaderRight from "./header/menu-header-right";
 
 const Header = () => {
     return (
-        <header class="header">
-            <div class="header__inner fixed-header">
-                <div class="header__main">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="header__main-inner">
+        <header className="header">
+            <div className="header__inner fixed-header">
+                <div className="header__main">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="header__main-inner">
                                     <HeaderTitle></HeaderTitle>
                                     <MenuHeaderCenter></MenuHeaderCenter>
                                     {/* <MenuHeaderRight></MenuHeaderRight> */}
