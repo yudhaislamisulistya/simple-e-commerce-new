@@ -15,7 +15,7 @@ export default function Contact() {
                                     <hr class="delimeter"></hr>
                                 </div>
                                 <div class="contact-info mb--20">
-                                    <p><i class="fa fa-map-marker"></i>Jl. Gatot Subroto, Makassar</p>
+                                    <p><i class="fa fa-map-marker"></i>Jl. Gatot Subroto, Jakarta</p>
                                     <p><i class="fa fa-phone"></i> +62-853-9009-9009</p>
                                     <p><i class="fa fa-clock-o"></i> Senin – Jumat : 9:00 – 18:00</p>
                                 </div>
