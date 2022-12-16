@@ -13,14 +13,15 @@ const MenuHeaderCenter = () => {
                         </li>
 
                         <li className="mainmenu__item">
-                            <a className="mainmenu__link">
+                                <a className="mainmenu__link">
+                            <Link href={'/produk'}>
                                 <span className="mm-text">Produk</span>
-                            </a>
+                            </Link>
+                                </a>
                         </li>
                         <li className="mainmenu__item">
                                 <a className="mainmenu__link">
                             <Link href={'/contact'}>
-
                                     <span className="mm-text">Contact</span>
                             </Link>
                                 </a>
