@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const MenuHeaderCenter = () => {
     return(
         <>
@@ -9,19 +11,26 @@ const MenuHeaderCenter = () => {
                                 <span class="mm-text">Home</span>
                             </a>
                         </li>
+
                         <li class="mainmenu__item">
                             <a class="mainmenu__link">
                                 <span class="mm-text">Produk</span>
                             </a>
                         </li>
                         <li class="mainmenu__item">
-                            <a class="mainmenu__link">
-                                <span class="mm-text">Contact</span>
-                            </a>
+                                <a class="mainmenu__link">
+                            <Link href={'/contact'}>
+
+                                    <span class="mm-text">Contact</span>
+                            </Link>
+                                </a>
                         </li>
                         <li class="mainmenu__item">
                             <a class="mainmenu__link">
+                            <Link href={'/about-us'}>
                                 <span class="mm-text">About Us</span>
+                            </Link>
+
                             </a>
                         </li>
                         <li class="mainmenu__item">
