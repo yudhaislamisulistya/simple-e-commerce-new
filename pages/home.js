@@ -5,7 +5,6 @@ export default function Home(){
         <>
         <Header></Header>
         <div>
-            <h1>Home Mba Sandy Baruusssuuu</h1>
         </div>
         </>
     )

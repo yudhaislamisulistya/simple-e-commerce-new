@@ -13,7 +13,7 @@ const Header = () => {
                                 <div class="header__main-inner">
                                     <HeaderTitle></HeaderTitle>
                                     <MenuHeaderCenter></MenuHeaderCenter>
-                                    <MenuHeaderRight></MenuHeaderRight>
+                                    {/* <MenuHeaderRight></MenuHeaderRight> */}
                                 </div>
                             </div>
                         </div>
