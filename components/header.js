@@ -1,5 +1,6 @@
 import HeaderTitle from "./header/title";
 import MenuHeaderCenter from "./header/menu-header-center";
+import MenuHeaderRight from "./header/menu-header-right";
 
 const Header = () => {
     return (
@@ -12,6 +13,7 @@ const Header = () => {
                                 <div className="header__main-inner">
                                     <HeaderTitle></HeaderTitle>
                                     <MenuHeaderCenter></MenuHeaderCenter>
+                                    <MenuHeaderRight></MenuHeaderRight>
                                 </div>
                             </div>
                         </div>
