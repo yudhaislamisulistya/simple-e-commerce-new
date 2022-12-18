@@ -1,6 +1,6 @@
 const BreadcrumbArea = (props) => {
     return (
-        <section class="page-title-area bg-image ptb--80" style={{backgroundImage: "url(assets/img/"+props.image+")"}}>
+        <section class="page-title-area bg-image ptb--80" style={{ backgroundImage: "url(assets/img/" + props.image + ")" }}>
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">

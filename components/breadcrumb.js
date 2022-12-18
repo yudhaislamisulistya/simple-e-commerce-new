@@ -1,7 +1,7 @@
 import BreadcrumbArea from "./breadcrumb/area"
 
 const Breadcrumb = (props) => {
-    return(
+    return (
         <BreadcrumbArea title={props.title} image={props.image}></BreadcrumbArea>
     )
 }
