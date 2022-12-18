@@ -3,7 +3,7 @@ import MenuHeaderCenter from "./header/menu-header-center";
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header ">
             <div className="header__inner fixed-header">
                 <div className="header__main">
                     <div className="container-fluid">
