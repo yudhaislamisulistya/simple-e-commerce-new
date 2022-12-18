@@ -17,7 +17,7 @@ const MenuHeaderCenter = () => {
                         <li className="mainmenu__item">
                                 <a className="mainmenu__link">
                             <Link href={'/produk'}>
-                                <span className="mm-text">Produk</span>
+                                <span className="mm-text">Product</span>
                             </Link>
                                 </a>
                         </li>

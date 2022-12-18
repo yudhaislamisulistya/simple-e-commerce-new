@@ -13,22 +13,22 @@ export default function Produk() {
                             <div class="col-md-12">
                                 <div class="card m-b-30">
                                     <div class="card-body">
-                                        <h1 class="mt-0">Produk</h1>
+                                        <h1 class="mt-0">Product</h1>
                                         <table id="datatable" class="table table-bordered dt-responsive nowrap"
                                             style={{ borderCollapse: "collapse", borderSpacing: 0, width: "100%" }}>
                                             <thead>
                                                 <tr>
-                                                    <th>Gambar</th>
-                                                    <th>Nama</th>
-                                                    <th>Kategori</th>
-                                                    <th>Harga</th>
+                                                    <th>Image</th>
+                                                    <th>Name</th>
+                                                    <th>Category</th>
+                                                    <th>Price</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><img style={{ borderCollapse: "20px" }} height="300" src="https://dash.sandy.sivia.id/assets/img/produk/1649324371_6de6c2efe05621f2fa47.jpeg" alt="" /></td>
-                                                    <td><h4>Pot Kriya</h4></td>
+                                                    <td><h4>Craft Pot</h4></td>
                                                     <td>Kriya Kayu</td>
                                                     <td>Rp. 50.000</td>
                                                     <td>
