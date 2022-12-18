@@ -64,15 +64,21 @@ export default function Contact() {
                                 ]">
 
 
-                                            <div className="slick-list draggable"><div className="slick-track" style={{ opacity: 1, width: '460px', transform: 'translate3d(0px, 0px, 0px)' }}><div className="item first-active slick-slide slick-current slick-active" tabindex="0" data-slick-index="0" aria-hidden="false">
-                                                <figure>
-                                                    <img height="100px" src="assets/img/sulsel.png" alt="Brand" className="mx-auto"></img>
-                                                </figure>
-                                            </div><div className="item last-active slick-slide slick-active" style={{ width: '230px' }} tabindex="0" data-slick-index="1" aria-hidden="false">
-                                                    <figure>
-                                                        <img height="100px" src="assets/img/tut_wuri_handayani.png" alt="Brand" className="mx-auto"></img>
-                                                    </figure>
-                                                </div></div></div></div>
+                                            <div className="slick-list draggable">
+                                                <div className="slick-track" style={{ opacity: 1, width: '460px', transform: 'translate3d(0px, 0px, 0px)' }}>
+                                                    <div className="item first-active slick-slide slick-current slick-active" tabindex="0" data-slick-index="0" aria-hidden="false">
+                                                        <figure>
+                                                            <img height="100px" src="assets/img/sulsel.png" alt="Brand" className="mx-auto"></img>
+                                                        </figure>
+                                                    </div>
+                                                    <div className="item last-active slick-slide slick-active" style={{ width: '230px' }} tabindex="0" data-slick-index="1" aria-hidden="false">
+                                                        <figure>
+                                                            <img height="100px" src="assets/img/tut_wuri_handayani.png" alt="Brand" className="mx-auto"></img>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
