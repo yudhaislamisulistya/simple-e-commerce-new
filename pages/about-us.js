@@ -5,6 +5,7 @@ export default function AboutUs() {
     return(
         <>
         <Header></Header>
+        <Breadcrumb title='About Us' image='about-us.jpg'></Breadcrumb>
         <main className="main-content-wrapper">
             <div className="inner-page-content pt--75 pt-md--55">
                 <section className="contact-area mb--75 mb-md--55">
