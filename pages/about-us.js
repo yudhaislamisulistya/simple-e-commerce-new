@@ -1,3 +1,4 @@
+import Breadcrumb from '../components/breadcrumb'
 import Header from '../components/header'
 
 export default function AboutUs() {
