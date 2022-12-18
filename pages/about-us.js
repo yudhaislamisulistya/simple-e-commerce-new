@@ -27,27 +27,33 @@ export default function AboutUs() {
                     <div className="brand-logo-area mb--80 mb-md--60">
                         <div className="container">
                             <div className="row justify-content-center">
-                                <h1>Partner</h1>
+                            <h1>Partner</h1>
                                 <div className="col-xl-12">
-                                    <div className="brand-log-wrapper bg-color ptb--75" data-bg-color="#e9fefd">
-                                        <div className="element-carousel" data-slick-options='{
-                                    "slidesToShow": 5,
-                                    "autoplay": true
-                                }' data-slick-responsive='[
-                                    {"breakpoint": 1200, "settings": {"slidesToShow": 4}},
-                                    {"breakpoint": 992, "settings": {"slidesToShow": 3}},
-                                    {"breakpoint": 768, "settings": {"slidesToShow": 2}},
-                                    {"breakpoint": 480, "settings": {"slidesToShow": 1}}
-                                ]'>
-                                            <div className="item">
-                                                <figure>
-                                                    <img height="100px" src="assets/img/sulsel.png" alt="Brand" className="mx-auto" />
-                                                </figure>
-                                            </div>
-                                            <div className="item">
-                                                <figure>
-                                                    <img height="100px" src="assets/img/tut_wuri_handayani.png" alt="Brand" className="mx-auto" />
-                                                </figure>
+                                    <div className="brand-log-wrapper bg-color ptb--75" data-bg-color="#e9fefd" style={{ backgroundColor: 'rgb(233, 254, 253)' }}>
+                                        <div className="element-carousel slick-carousel-0 slick-initialized slick-slider" data-slick-options="{
+                                    &quot;slidesToShow&quot;: 5,
+                                    &quot;autoplay&quot;: true
+                                }" data-slick-responsive="[
+                                    {&quot;breakpoint&quot;: 1200, &quot;settings&quot;: {&quot;slidesToShow&quot;: 4}},
+                                    {&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3}},
+                                    {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2}},
+                                    {&quot;breakpoint&quot;: 480, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}
+                                ]">
+
+
+                                            <div className="slick-list draggable">
+                                                <div className="slick-track" style={{ opacity: 1, width: '460px', transform: 'translate3d(0px, 0px, 0px)' }}>
+                                                    <div className="item first-active slick-slide slick-current slick-active" tabindex="0" data-slick-index="0" aria-hidden="false">
+                                                        <figure>
+                                                            <img height="100px" src="assets/img/sulsel.png" alt="Brand" className="mx-auto"></img>
+                                                        </figure>
+                                                    </div>
+                                                    <div className="item last-active slick-slide slick-active" style={{ width: '230px' }} tabindex="0" data-slick-index="1" aria-hidden="false">
+                                                        <figure>
+                                                            <img height="100px" src="assets/img/tut_wuri_handayani.png" alt="Brand" className="mx-auto"></img>
+                                                        </figure>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
