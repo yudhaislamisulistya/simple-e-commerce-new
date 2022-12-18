@@ -1,4 +1,5 @@
 import Breadcrumb from '../components/breadcrumb'
+import Footer from '../components/footer'
 import Header from '../components/header'
 export default function Produk() {
     return(
@@ -231,6 +232,7 @@ Hubungi : 08559992222</td>
         </div>
     </div>
 </div>
+<Footer></Footer>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import Breadcrumb from '../components/breadcrumb'
+import Footer from '../components/footer'
 import Header from '../components/header'
 
 export default function Profile() {
@@ -146,6 +147,7 @@ export default function Profile() {
                 </div>
             </div>
         </div>
+        <Footer></Footer>
         </>
     )
 }

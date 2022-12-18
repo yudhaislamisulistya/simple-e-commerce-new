@@ -1,4 +1,5 @@
 import Breadcrumb from "../components/breadcrumb"
+import Footer from "../components/footer"
 import Header from "../components/header"
 
 export default function Contact() {
@@ -79,6 +80,7 @@ export default function Contact() {
                 </div>
             </div>
         </main>
+        <Footer></Footer>
         </>
     )
 }
