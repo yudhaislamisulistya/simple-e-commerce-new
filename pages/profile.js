@@ -1,9 +1,11 @@
+import Breadcrumb from '../components/breadcrumb'
 import Header from '../components/header'
 
 export default function Profile() {
     return(
         <>
         <Header></Header>
+        <Breadcrumb title='My Profile' image='profile.jpg'></Breadcrumb>
         <div className="main-content-wrapper">
             <div className="page-content-inner ptb--80 ptb-md--60 pb-sm--55">
                 <div className="container">

@@ -1,9 +1,11 @@
+import Breadcrumb from "../components/breadcrumb"
 import Header from "../components/header"
 
 export default function Contact() {
     return (
         <>
         <Header></Header>
+        <Breadcrumb title='Contact Us' image='contact.jpg'></Breadcrumb>
         <main className="main-content-wrapper">
             <div className="inner-page-content pt--75 pt-md--55">
                 <section className="contact-area mb--75 mb-md--55">
