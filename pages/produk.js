@@ -1,8 +1,10 @@
+import Breadcrumb from '../components/breadcrumb'
 import Header from '../components/header'
 export default function Produk() {
     return(
         <>
         <Header></Header>
+        <Breadcrumb title='Product' image='product.jpg'></Breadcrumb>
         <div class="main-content-wrapper">
     <div class="shop-page-wrapper shop-fullwidth ptb--80">
         <div class="container-fluid">
