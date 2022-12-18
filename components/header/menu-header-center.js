@@ -8,7 +8,9 @@ const MenuHeaderCenter = () => {
                     <ul className="mainmenu">
                         <li className="mainmenu__item">
                             <a href="#" className="mainmenu__link">
+                                <Link href={'/'}>
                                 <span className="mm-text">Home</span>
+                                </Link>
                             </a>
                         </li>
 
